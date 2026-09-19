@@ -7,8 +7,8 @@
 
 | 占位符 | 当前值（Windows 主力机） |
 |---|---|
-| `{{ARCHIVE_ROOT}}` | `D:\HuaweiYun_Rebuild_20260826\华为家庭存储\001_Work` |
-| `{{DESKTOP}}` | `C:\Users\rg\Desktop` |
+| `{{ARCHIVE_ROOT}}` | `自动识别：华为家庭存储\001_Work（当前 DESKTOP-4090：D:\华为家庭存储\001_Work）` |
+| `{{DESKTOP}}` | `自动使用当前用户 Desktop（当前 DESKTOP-4090：C:\Users\Nero\Desktop）` |
 | `{{PYTHON}}` | `C:/Users/rg/.workbuddy/binaries/python/envs/default/Scripts/python.exe` |
 | `{{MEMORY_DIR}}` | `C:\Users\rg\WorkBuddy\work\.workbuddy\memory` |
 | `{{VISION_PROXY}}` | `C:\Users\rg\.opencode-go\vision_proxy.py` |
@@ -53,3 +53,11 @@ python-docx   openpyxl   python-pptx   pypdf   PyMuPDF(fitz)   Pillow
 - 一组关联文件（协议 + 支撑说明）→ 协议作主件排 `01`，支撑说明排 `02/03`
 - 对方（医院/高校/供应商）发来的文件，作者位写对方交接人姓名
 - 拿不准归属时，优先按**项目档案聚拢**原则：与既有同主题项目目录放一起，而非按文件类型分散
+
+## 6. 多电脑与双份归档规则
+
+- 多电脑不要写死盘符或用户名。先识别当前电脑名，再定位 华为家庭存储\\001_Work。
+- 每个工作文件保留两份：第一份按项目/职能归档到 001_Work 对应目录；第二份复制到 001_Work\\0 总资料 的对应知识域。
+- 源桌面文件默认只复制，不移动、不删除。
+- 无法判断项目目录或 0 总资料知识域时，再询问用户。
+
